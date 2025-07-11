@@ -384,7 +384,7 @@ const firebaseConfig = {
         const appId = firebaseConfig.projectId;
 
         // Cek jika konfigurasi sudah diisi
-        if (firebaseConfig.apiKey === "database-parfum-all-parfum") {
+        if (firebaseConfig.apiKey === "AIzaSyB2wOZQ5iVGmxkX3HKZGLqXP8ll3v6Xq5E") {
             const body = document.querySelector('body');
             body.innerHTML = `<div class="flex items-center justify-center h-screen bg-gray-900 text-white"><div class="text-center p-8 bg-gray-800 rounded-lg shadow-xl"><h2 class="text-2xl font-bold text-red-500 mb-4">Konfigurasi Diperlukan</h2><p class="text-gray-300">Konfigurasi Firebase belum diatur. Silakan edit file <strong>index.html</strong> dan masukkan konfigurasi dari proyek Firebase Anda.</p></div></div>`;
             throw new Error("Firebase config is not set.");
